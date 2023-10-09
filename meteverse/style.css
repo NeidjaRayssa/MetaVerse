@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(img/bg.png);
+    background-position: center;
+    background-size: cover;
+    background-color: #000000;
+}
+
+
+header{
+    width: 100vw;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    width: 30%;
+    padding-left: 4rem;
+}
+
+.logo img{
+    width: 50%;
+}
+
+nav{
+    width: 70%;
+    font-size: 1.2rem;
+    letter-spacing: 0.2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+}
+
+nav a{
+    text-decoration: none;
+    color: #fff;
+}
+
+main{
+    width: 100vw;
+    height: 85vh;
+    display: flex;
+}
+
+.cta{
+    width: 50%;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+}
+.cta h1{
+    font-size: 4rem;
+    padding: 0 4rem;
+}
+.cta p{
+    padding-left: 4rem;
+    padding-right: 12rem;
+    line-height: 2rem;
+}
+.cta .inputs{
+    padding-left: 4rem;
+}
+.cta .inputs a{
+    text-decoration: none;
+    color: #ed7b0a;
+    margin-right: 1rem;
+    padding: 1rem 2rem;
+    border-radius: 5rem;
+    font-weight: 600;
+    background-color: #fff;
+}
+
+
+.slider{
+    width: 40%;
+}
+.slider img{
+    width: 500px;
+    height: 540px;
+}
+.legend{
+    width: 400px;
+    background-color: #fff;
+    padding: 2rem 4rem;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+    margin: -120px 0 0 45px;
+    position: relative;
+    z-index: 9;
+    font-weight: 600;
+    font-size: 0.8rem;
+    opacity: 0.8;
+}
+
+.social-media{
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-end;
+    align-items: center;
+    padding-bottom: 3rem;
+}
+.social-media div{
+    display: flex;
+    flex-direction: column;
+    gap: .2rem;
+    margin-top: .2rem;
+}
+.social-media div img{
+    width: 30px;
+    height: 30px;
+}
+.social-media p{
+    position: absolute;
+    font-weight: 700;
+    color: #fff;
+    transform:rotate(90deg) translatex(-160%);
+}
